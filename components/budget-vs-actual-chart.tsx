@@ -56,9 +56,9 @@ export function BudgetVsActualChart({ transactions, budgets }: BudgetVsActualCha
   }, [transactions, budgets]);
 
   const formatCurrency = (value: number) => {
-    return new Intl.NumberFormat('en-US', {
+    return new Intl.NumberFormat('en-IN', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'INR',
       minimumFractionDigits: 0,
     }).format(value);
   };
