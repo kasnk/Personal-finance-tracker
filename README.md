@@ -1,4 +1,3 @@
-
 # Personal Finance Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,7 +22,6 @@ The Personal Finance Tracker is a modern, user-friendly application designed to 
 *   **User-friendly Interface:** Intuitive design with React and shadcn/ui for easy navigation and data entry.
 *   **Data Security:** Secure storage of your financial data with MongoDB.
 *   **Multi-Currency Support:** Track finances in different currencies.
-*   **Goal Setting:** Define financial goals (e.g., saving for a down payment) and monitor your progress towards achieving them.
 *   **Responsive Design:**  Works seamlessly on desktop and mobile devices.
 
 ## Installation
@@ -87,16 +85,6 @@ bash
 
     > Replace `docs/screenshots/reports.png` with the actual path or URL to your screenshot. The reports are rendered using Recharts, providing interactive and visually appealing data representations.
 
-### Setting Financial Goals
-
-1. Navigate to the "Goals" section.
-2. Click "Add Goal".
-3. Enter the goal details, including the target amount, deadline, and a description.
-4. Click "Save".
-
-    ![Setting Financial Goals](docs/screenshots/goals.png)
-
-    > Replace `docs/screenshots/goals.png` with the actual path or URL to your screenshot.
 
 ## Troubleshooting
 
@@ -118,19 +106,7 @@ bash
     *   Check for any conflicting CSS styles in your application.
     *   Refer to the shadcn/ui documentation for component-specific troubleshooting.
 
-### FAQ
 
-**Q: How do I reset my password?**
-
-> A: Go to the "Forgot Password" section on the login page and follow the instructions. (This assumes a "Forgot Password" feature exists).
-
-**Q: Can I export my data?**
-
-> A: Yes, you can export your data in CSV format from the "Settings" section.
-
-**Q: How do I add a new category?**
-
-> A: Go to the "Settings" section and click on "Manage Categories".
 
 ## Contributing
 
